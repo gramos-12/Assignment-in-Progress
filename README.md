@@ -23,3 +23,5 @@
 4/24/2025 changed the class="main" to bisque
 
 4/24/2025 changed the nav links sequence in all the web pages
+
+4/25/2025 fixed issue where each web page would display different height depending on the .right img. In css file set the .right img height = 500px. I was using 'auto' and '%' for the values. 
