@@ -24,4 +24,6 @@
 
 4/24/2025 changed the nav links sequence in all the web pages
 
-4/25/2025 fixed issue where each web page would display different height depending on the .right img. In css file set the .right img height = 500px. I was using 'auto' and '%' for the values. 
+4/25/2025 learned the difference between margin vs padding and played with both to understand their affects.
+
+4/26/25 Made changes to all the web pages so they all look the same when navigating from page to page
