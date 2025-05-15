@@ -19,11 +19,10 @@
   margin-left: 10px;
 }
 .h1pos{
-  display:flex;
-  height: 45px;
-  width: 310px;
-  margin-left: 300px;
-  margin-bottom: 10px;
+  margin: 2px;
+}
+.h1_nav{
+  text-align: center;
 }
 .h1, .navloc {
     display: flex;
@@ -31,20 +30,18 @@
 }
 .navloc {
     margin-left: 100px;
+    display: flex;
 }
-ul {
+.movnav {
     text-align: center;
 }
-li{
-    display:flex;
-    flex-direction: row;
+.movnav li{
     align-content: bottom;
     display: inline-block;
     width: 150px;
-    border: 2px solid black;
-    border-radius: 10px;
     line-height: em;
     font-family: Arial, Helvetica, sans-serif;
+    border-right: 1px solid black;
 }
 a{
     text-decoration: none;
@@ -68,8 +65,8 @@ a{
   margin: 30px 20px 30px 20px;
 }
   .left img {
-  width: 100%;
-  height: 300px;
+  width: 80%;
+  height: auto;
 }
 .right {
 width: 45%;
@@ -84,75 +81,124 @@ margin: 30px 20px 30px 20px;
 #aboutus-page {
     margin: 0px 0px 0px 200px;
 }
+#under_construction {
+  color: red;
+}
 #home-p {
-  background-color: lemonchiffon;
+  border: 2px solid black;
+  border-radius: 10px;
   color: black;
   font-size:20px;
   font-style: italic;  
-  padding: 10px 0px 30px 20px;
+  padding: 5px 0px 5px 20px;
   margin: 20px 0px 0px 0px;
   width: 100%;
 }
 #recipes-p {
-  background-color: lemonchiffon;
-    color: black;
-    font-size:20px;
-    font-style: italic;  
-    padding: 10px 0px 120px 20px;
-    margin: 20px 0px 0px 0px;
-    width: 100%;
-}
-#Hol_Seasons-p {
-  background-color: lemonchiffon;
-    color: black;
-    font-size:20px;
-    font-style: italic;  
-    padding: 10px 0px 120px 20px;
-    margin: 20px 0px 0px 0px;
-    width: 100%;
-}
-#HealthyFoods-p {
-  background-color: lemonchiffon;
-  color: black;
+  border: 2px solid black;
+  border-radius: 10px;
+  color: red;
   font-size:20px;
   font-style: italic;  
-  padding: 10px 0px 120px 20px;
+  padding: 10px 0px 35px 20px;
+  margin: 20px 0px 0px 0px;
+  width: 100%;
+}
+#Hol_Seasons-p {
+  border: 2px solid black;
+  border-radius: 10px;
+  color: red;
+  font-size:20px;
+  font-style: italic;  
+  padding: 10px 0px 35px 20px;
+  margin: 20px 0px 0px 0px;
+  width: 100%;
+}
+#HealthyFoods-p {
+  border: 2px solid black;
+  border-radius: 10px;
+  color: red;
+  font-size:20px;
+  font-style: italic;  
+  padding: 10px 0px 35px 20px;
   margin: 20px 0px 0px 0px;
   width: 100%;
 }
 #aboutus-p {
-    background-color: lemonchiffon;
-    color: black;
-    font-size:20px;
-    font-style: italic;  
-    padding: 10px 0px 50px 20px;
-    margin: 20px 0px 0px 0px;
-    width: 100%;
+  border: 2px solid black;
+  border-radius: 10px;
+  color: black;
+  font-size:20px;
+  font-style: italic;  
+  padding: 10px 0px 40px 20px;
+  margin: 20px 0px 0px 0px;
+  width: 100%;
 }
 .right h1 {
   margin: 0px 0px 0px 140px;
 }
-.text1{
-  background-color: lemonchiffon;
-  color: black;
-  font-size:20px;
-  font-style: italic;  
-  padding: 10px 0px 30px 20px;
-  margin: 20px 0px 0px 0px;
-  width: 100%;
+#home-rt-img {
+display:flex;
+width: 100%;
 }
-.right img {
-  margin-top: 40px;
+  #home-rt-img  img{
+    width: 100%;
+    height: 300px;
+    margin-top: 45px;
+  }
+  #Recipes-rt-img {
+    display:flex;
+    width: 100%;
+  }
+  #Recipes-rt-img img {
+    width: 100%;
+    height: 300px;
+    margin-top: 115px;
+  }
+  #hol_seasons-rt-img {
+    display:flex;
+    width: 100%;
+  }
+#hol_seasons-rt-img img {
+  width: 100%;
+    height: 300px;
+    margin-top: 120px;
+}
+#healthy_foods-rt-img {
+  display:flex;
+    width: 100%;
+}
+#healthy_foods-rt-img img {
+  width: 100%;
+    height: 300px;
+    margin-top: 120px;
+}
+#aboutus-rt-img {
+  display:flex;
+    width: 100%;
+}
+#aboutus-rt-img img {
   width: 100%;
   height: 300px;
-  }
+  margin-top: 50px;
+}
+
   footer {
     color:black;
     margin: auto;
     height: 40px;
     font-size: large;
     padding: 5px 0px 5px 20px;
-    border: 2px solid black;
-    border-radius: 10px;
-    width: 70%;
+    width: 80%;
   }
+  .contact {
+    display: flex;
+    gap: 40px;
+    
+  }
+  .contact li {
+    display: inline-block;
+    width: auto;
+    line-height: em;
+    font-family: Arial, Helvetica, sans-serif;
+    }
