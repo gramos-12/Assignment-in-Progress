@@ -71,6 +71,7 @@ a{
 .right {
 width: 45%;
 display: flex;
+gap: 40px;
 flex-direction: column;
 align-items: flex-start;
 margin: 30px 20px 30px 20px;
@@ -138,49 +139,26 @@ margin: 30px 20px 30px 20px;
   margin: 0px 0px 0px 140px;
 }
 #home-rt-img {
-display:flex;
 width: 100%;
+height: 300px;
 }
-  #home-rt-img  img{
-    width: 100%;
-    height: 300px;
-    margin-top: 45px;
-  }
+ 
   #Recipes-rt-img {
     display:flex;
     width: 100%;
-  }
-  #Recipes-rt-img img {
-    width: 100%;
-    height: 300px;
-    margin-top: 115px;
   }
   #hol_seasons-rt-img {
     display:flex;
     width: 100%;
   }
-#hol_seasons-rt-img img {
-  width: 100%;
-    height: 300px;
-    margin-top: 120px;
-}
 #healthy_foods-rt-img {
   display:flex;
     width: 100%;
 }
-#healthy_foods-rt-img img {
-  width: 100%;
-    height: 300px;
-    margin-top: 120px;
-}
 #aboutus-rt-img {
-  display:flex;
-    width: 100%;
-}
-#aboutus-rt-img img {
   width: 100%;
   height: 300px;
-  margin-top: 50px;
+  margin-top: 10px;
 }
 
   footer {
