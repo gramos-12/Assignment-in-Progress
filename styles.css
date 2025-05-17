@@ -79,9 +79,6 @@ flex-direction: column;
 align-items: flex-start;
 margin: 30px 20px 30px 20px;
 }
-#home-page {
-  margin: 0px 0px 0px 160px;
-}
 #home-rt-img {
   width: 100%;
   height: 300px;
@@ -145,7 +142,7 @@ margin: 30px 20px 30px 20px;
   height: 300px;
   margin-top: 0px;
 }
-#aboutus-page {
+#aboutus-h1 {
     margin: 0px 0px 0px 200px;
 }
 #aboutus-p {
