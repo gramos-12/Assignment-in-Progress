@@ -10,7 +10,6 @@
   flex-direction: row;
   height: 110px;
   width: 90%;
-  
 }
 .page {
   width: 120px;
@@ -47,6 +46,10 @@ a{
     text-decoration: none;
     display:block; 
 }
+.active {
+    background-color: darkgreen;
+    color: white;
+  }
 .container {
   display: flex;
   margin: auto;
@@ -79,11 +82,9 @@ margin: 30px 20px 30px 20px;
 #home-page {
   margin: 0px 0px 0px 160px;
 }
-#aboutus-page {
-    margin: 0px 0px 0px 200px;
-}
-#under_construction {
-  color: red;
+#home-rt-img {
+  width: 100%;
+  height: 300px;
 }
 #home-p {
   border: 2px solid black;
@@ -95,6 +96,11 @@ margin: 30px 20px 30px 20px;
   margin: 20px 0px 0px 0px;
   width: 100%;
 }
+/* ........ The following relate to pages Under Construction ....... */
+ #Recipes-rt-img {
+    display:flex;
+    width: 100%;
+  }
 #recipes-p {
   border: 2px solid black;
   border-radius: 10px;
@@ -105,6 +111,10 @@ margin: 30px 20px 30px 20px;
   margin: 20px 0px 0px 0px;
   width: 100%;
 }
+ #hol_seasons-rt-img {
+    display:flex;
+    width: 100%;
+  }
 #Hol_Seasons-p {
   border: 2px solid black;
   border-radius: 10px;
@@ -114,6 +124,10 @@ margin: 30px 20px 30px 20px;
   padding: 10px 0px 35px 20px;
   margin: 20px 0px 0px 0px;
   width: 100%;
+}
+#healthy_foods-rt-img {
+  display:flex;
+    width: 100%;
 }
 #HealthyFoods-p {
   border: 2px solid black;
@@ -125,6 +139,15 @@ margin: 30px 20px 30px 20px;
   margin: 20px 0px 0px 0px;
   width: 100%;
 }
+  /* ......... This ends the Under Construction CSS code ....... */
+ #aboutus-rt-img {
+  width: 100%;
+  height: 300px;
+  margin-top: 0px;
+}
+#aboutus-page {
+    margin: 0px 0px 0px 200px;
+}
 #aboutus-p {
   border: 2px solid black;
   border-radius: 10px;
@@ -132,35 +155,15 @@ margin: 30px 20px 30px 20px;
   font-size:20px;
   font-style: italic;  
   padding: 10px 0px 40px 20px;
-  margin: 20px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
   width: 100%;
 }
 .right h1 {
   margin: 0px 0px 0px 140px;
 }
-#home-rt-img {
-width: 100%;
-height: 300px;
+#under_construction {
+  color: red;
 }
- 
-  #Recipes-rt-img {
-    display:flex;
-    width: 100%;
-  }
-  #hol_seasons-rt-img {
-    display:flex;
-    width: 100%;
-  }
-#healthy_foods-rt-img {
-  display:flex;
-    width: 100%;
-}
-#aboutus-rt-img {
-  width: 100%;
-  height: 300px;
-  margin-top: 10px;
-}
-
   footer {
     color:black;
     margin: auto;
@@ -179,7 +182,4 @@ height: 300px;
     line-height: em;
     font-family: Arial, Helvetica, sans-serif;
   }
-  .active {
-    background-color: darkgreen;
-    color: white;
-  }
+  
