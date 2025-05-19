@@ -11,12 +11,6 @@
   height: 110px;
   width: 90%;
 }
-.page {
-  width: 120px;
-  flex-direction: column;
-  align-content: center;
-  margin-left: 10px;
-}
 .h1pos{
   margin: 2px;
 }
