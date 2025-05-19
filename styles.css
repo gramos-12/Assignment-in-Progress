@@ -7,19 +7,15 @@
 .top {
   margin: auto;
   display: flex;
-  flex-direction: row;
   height: 110px;
   width: 90%;
 }
 .h1pos{
   margin: 2px;
+  padding-left: 100px;
 }
 .h1_nav{
   text-align: center;
-}
-.h1, .navloc {
-    display: flex;
-    flex: wrap;
 }
 .navloc {
     margin-left: 100px;
